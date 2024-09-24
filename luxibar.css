@@ -1,0 +1,446 @@
+@import "https://dl.dropboxusercontent.com/s/uaeavnoe2z2ox4w/halloween2016.css";
+
+/* ------------------------------- */
+/*  [ CLEAN TOPBAR ] by Luxiamimi  */
+/* ------------------------------- */
+
+#mal_control_strip
+{
+	position: fixed !important;
+	top:0px;
+	left:0px;
+	border: none !important;
+	box-shadow: 0px 7px 10px #000000;
+	z-index: 100 !important;
+	padding: 0 !important;
+	margin: 0 !important;
+}
+
+#mal_control_strip td
+{
+	padding: 0 !important;
+	margin: 0 !important;
+}
+
+#mal_cs_pic, #mal_cs_listinfo, #mal_cs_links
+{
+	border-right: 0 none !important;
+}
+
+#mal_control_strip a
+{
+	font-family: 'Exo', 'Trebuchet MS' !important;
+	font-size: 14px !important;
+transition: background-color 0.2s;
+-moz-transition: background-color 0.2s;
+-webkit-transition: background-color 0.2s;
+-o-transition: background-color 0.2s;
+}
+#mal_control_strip a:hover
+{
+	background-color: rgba(255, 255, 255, 0.2) !important;
+}
+
+#mal_cs_listinfo
+{
+	padding: 0 !important;
+	margin: 0 !important;
+	width: 210px !important;
+}
+
+#mal_cs_listinfo div:first-of-type
+{
+	display: inline-block !important;
+	margin: 0 !important;
+	height: 40px !important;
+	width: 150px !important;
+	float: left;
+	padding-left: 40px !important;
+}
+
+#mal_cs_listinfo div:last-of-type
+{
+	display: inline-block !important;
+	text-align: center !important;
+	margin: 0 !important;
+	height: 40px !important;
+	width: 20px !important;
+}
+
+#mal_cs_listinfo a[href*="/profile/"]
+{
+	display:block !important;
+	text-align: center !important;
+	height: 27px !important;
+	padding-top: 12px;
+	padding-left: 40px;
+	padding-right: 10px;
+	font-family: 'Exo', 'Trebuchet MS' !important;
+	font-size: 14px !important;
+	text-decoration: none !important;
+	background-image: url(http://i.imgur.com/iPqM6vE.png) !important;
+	background-repeat: no-repeat !important;
+	background-position: 4px 4px !important;
+  overflow: hidden;
+  -o-text-overflow: ellipsis;
+  text-overflow: ellipsis;
+}
+
+#mal_cs_listinfo a[href*="/profile/"]:hover
+{
+}
+
+#mal_cs_listinfo a[href="/panel.php?go=logout"]
+{
+	display:block !important;
+	text-align: center !important;
+	height: 38px !important;
+	border-right: 1px solid gray;
+	border-left: 1px solid gray;
+	border-bottom: 1px solid gray;
+	text-indent: -9999em !important;
+	background-color: rgba(100, 0, 0, 1) !important;
+	background-image: url(http://i.imgur.com/QNGfyAV.png) !important;
+	background-repeat: no-repeat !important;
+	background-position: center  !important;
+}
+
+#mal_cs_listinfo a[href="/panel.php?go=logout"]:hover
+{
+	background-color: rgba(150, 0, 0, 1) !important;
+}
+
+#mal_cs_links
+{
+	padding: 0 !important;
+	margin: 0 !important;
+	width: 120px !important;
+}
+
+#mal_cs_links div
+{
+	display: inline-block !important;
+	margin: 0 !important;
+	height: 40px !important;
+	width: 80px !important;
+	font-size: 0 !important;
+}
+
+#mal_cs_links div:first-of-type
+{
+	float: left;
+	width: 40px !important;
+}
+
+#mal_cs_links a[href="/addtolist.php?hidenav=1"],
+#mal_cs_links a[href="/"],
+#mal_cs_links a[href*="/animelist/"],
+#mal_cs_links a[href*="/mangalist/"]
+{
+	display: inline-block !important;
+	border-right: 1px solid gray;
+	text-indent: -9999em !important;
+}
+
+#mal_cs_links a[href="/"]
+{
+	background-image: url(http://i.imgur.com/EK1J76O.png), url(http://i.imgur.com/OI0oab5.png) !important;
+	background-repeat: no-repeat, no-repeat !important;
+	background-position: 0 0, 0 0 !important;
+	position:fixed;
+	top:0px;
+	left:0px;
+	width: 40px !important;
+	height: 39px !important;
+}
+#mal_cs_links a[href="/"]:hover
+{
+	background-image: url(http://i.imgur.com/OI0oab5.png), url(http://i.imgur.com/EK1J76O.png) !important;
+	background-repeat: no-repeat, no-repeat !important;
+	background-position: 0 0, 0 0 !important;
+}
+
+#mal_cs_links a[href="/addtolist.php?hidenav=1"]
+{
+	background-image: url(http://i.imgur.com/KefOZjk.png) !important;
+	background-repeat: no-repeat !important;
+	background-position: 4px center  !important;
+	height: 39px !important;
+	width: 39px !important;
+}
+#mal_cs_links a[href*="/animelist/"]
+{
+	background-image: url(http://i.imgur.com/K4RRY13.png) !important;
+	background-repeat: no-repeat !important;
+	background-position: 4px center  !important;
+	height: 39px !important;
+	width: 39px !important;
+}
+#mal_cs_links a[href*="/mangalist/"]
+{
+	background-image: url(http://i.imgur.com/XhzRoee.png) !important;
+	background-repeat: no-repeat !important;
+	background-position: 4px center  !important;
+	height: 39px !important;
+	width: 39px !important;
+}
+
+#mal_cs_links a[href="/"],
+#mal_cs_links a[href*="/animelist/"]
+{ float: left; }
+
+#mal_cs_otherlinks a[href="/addtolist.php?hidenav=1"]
+{ float: right; }
+
+#mal_cs_otherlinks
+{
+	padding: 0 !important;
+	margin: 0 !important;
+	width: 520px !important;
+	float: left;
+}
+
+#mal_cs_otherlinks div:first-of-type
+{
+	display: inline-block !important;
+	margin: 0 !important;
+	height: 40px !important;
+	font-size: 0 !important;
+	float: left;
+}
+
+#mal_cs_otherlinks div:last-of-type
+{
+	display: inline-block !important;
+	margin: 0 !important;
+	height: 40px !important;
+	width: 220px !important;
+	font-size: 0 !important;
+}
+
+#mal_cs_otherlinks strong
+{
+	display: inline-block !important;
+	text-align: center !important;
+	height: 27px !important;
+	border-right: 1px solid gray;
+	padding: 12px 15px 0px 15px !important;
+	font-family: 'Exo', 'Trebuchet MS' !important;
+	font-size: 14px !important;
+	font-weight: normal;
+cursor: default;
+}
+
+#mal_cs_otherlinks strong a[href*="/profile/"]:hover
+{
+	background-color: transparent !important;
+	text-shadow: 0px 0px 5px white;
+}
+
+#mal_cs_otherlinks a[href*="/history/"],
+#mal_cs_otherlinks a[href="/forum/"],
+#mal_cs_otherlinks a[href="/panel.php?go=export"],
+#mal_cs_otherlinks a[href*="/sharedanime.php?"],
+#mal_cs_otherlinks a[href*="/sharedmanga.php?"],
+#mal_cs_otherlinks a[href*="/mangalist/"],
+#mal_cs_otherlinks a[href*="/animelist/"],
+#mal_cs_otherlinks a[href="/login.php"],
+#mal_cs_otherlinks a[href="/register.php"],
+#mal_cs_otherlinks a[href="/modules.php?go=faq"]
+{
+	display: inline-block !important;
+	text-align: center !important;
+	height: 39px !important;
+	border-right: 1px solid gray;
+	width: 39px !important;
+	text-indent: -9999em !important;
+}
+
+#mal_cs_otherlinks a[href*="/history/"]
+{
+	background-image: url(http://i.imgur.com/5LzajpX.png) !important;
+	background-repeat: no-repeat !important;
+	background-position: center  !important;
+}
+#mal_cs_otherlinks a[href="/forum/"]
+{
+	background-image: url(http://i.imgur.com/j4Nrajx.png) !important;
+	background-repeat: no-repeat !important;
+	background-position: center  !important;
+}
+#mal_cs_otherlinks a[href="/panel.php?go=export"]
+{
+	background-image: url(http://i.imgur.com/ZCth3ed.png) !important;
+	background-repeat: no-repeat !important;
+	background-position: center  !important;
+}
+#mal_cs_otherlinks a[href*="/sharedanime.php?"],
+#mal_cs_otherlinks a[href*="/sharedmanga.php?"]
+{
+	background-image: url(http://i.imgur.com/MiawDGC.png) !important;
+	background-repeat: no-repeat !important;
+	background-position: center  !important;
+}
+#mal_cs_otherlinks a[href*="/mangalist/"]
+{
+	background-image: url(http://i.imgur.com/XhzRoee.png) !important;
+	background-repeat: no-repeat !important;
+	background-position: center  !important;
+}
+#mal_cs_otherlinks a[href*="/animelist/"]
+{
+	background-image: url(http://i.imgur.com/K4RRY13.png) !important;
+	background-repeat: no-repeat !important;
+	background-position: center  !important;
+}
+#mal_cs_otherlinks a[href="/login.php"]
+{
+	background-image: url(http://i.imgur.com/V98qydE.png) !important;
+	background-repeat: no-repeat !important;
+	background-position: center  !important;
+}
+#mal_cs_otherlinks a[href="/register.php"]
+{
+	background-image: url(http://i.imgur.com/FOnv5qG.png) !important;
+	background-repeat: no-repeat !important;
+	background-position: center  !important;
+}
+#mal_cs_otherlinks a[href="/modules.php?go=faq"]
+{
+	background-image: url(http://i.imgur.com/QXoqkwM.png) !important;
+	background-repeat: no-repeat !important;
+	background-position: center  !important;
+}
+
+#mal_cs_otherlinks a[href*="/history/"],
+#mal_cs_otherlinks a[href="/forum/"],
+#mal_cs_otherlinks a[href*="/sharedanime.php?"],
+#mal_cs_otherlinks a[href*="/sharedmanga.php?"],
+#mal_cs_otherlinks a[href*="/mangalist/"],
+#mal_cs_otherlinks a[href*="/animelist/"]
+{ float: left; }
+
+span[title="Compatibility Score"]
+{
+	font-family: 'Exo', 'Trebuchet MS' !important;
+	font-size: 18px !important;
+	display: inline-block !important;
+	float: right;
+	height: 39px !important;
+	width: 99px !important;
+	border-right: 1px solid gray;
+	text-align: center !important;
+cursor: default;
+}
+
+span[title="Compatibility Score"]:before
+{
+	content: "Compatibility : ";
+	font-size: 10px !important;
+}
+
+#mal_cs_pic
+{
+	padding: 0 !important;
+	margin: 0 !important;
+	width: 200px !important;
+	float: left;
+}
+
+#mal_cs_pic a[href="/"]
+{
+	display:block !important;
+	text-align: center !important;
+	border-right: 1px solid gray;
+	height: 39px !important;
+	width: 200px !important;
+}
+
+#searchBox
+{
+	font-family: 'Exo', 'Trebuchet MS' !important;
+	width: 145px !important;
+}
+#searchBox:focus
+{
+box-shadow: 0px 0px 5px #0983FD;
+}
+
+#searchListButton
+{
+	display: none;
+}
+
+#mal_control_strip a:after
+{
+	display: block;
+	position: fixed;
+	top: 39px;
+	margin-left: -1px;
+	overflow: hidden;
+	border-radius: 0px 0px 10px 0px;
+	padding: 0px 10px 0px 10px;
+	vertical-align: center;
+	border: none;
+	box-shadow: 0px 5px 7px black;
+	background-color: #5E5E5E;
+	text-indent: 0;
+	height: 0px;
+	-moz-transition: none;
+	-webkit-transition: none;
+	-o-transition: none;
+	transition: none;
+}
+
+#mal_control_strip a:hover:after
+{
+	height: 20px;
+	padding: 5px 10px 5px 10px;
+	border: 1px solid gray;
+	border-top: none;
+	-moz-transition: height 0.3s linear 0.7s, padding 0.3s linear 0.7s, border 0s linear 0.7s;
+	-webkit-transition: height 0.3s linear 0.7s, padding 0.3s linear 0.7s, border 0s linear 0.7s;
+	-o-transition: height 0.3s linear 0.7s, padding 0.3s linear 0.7s, border 0s linear 0.7s;
+	transition: height 0.3s linear 0.7s, padding 0.3s linear 0.7s, border 0s linear 0.7s;
+}
+
+#mal_cs_listinfo a[href="/panel.php?go=logout"]:after
+{ display: none; }
+#mal_cs_listinfo a[href*="/profile/"]:after
+{ display: none; }
+#mal_cs_links a[href="/"]:after
+{ display: none; }
+#mal_cs_links a[href="/addtolist.php?hidenav=1"]:after
+{ content: "Add entry to my list"; }
+#mal_cs_links a[href*="/animelist/"]:after
+{ content: "My Anime List"; }
+#mal_cs_links a[href*="/mangalist/"]:after
+{ content: "My Manga List"; }
+#mal_cs_otherlinks strong a[href*="/profile/"]:after
+{ display: none; }
+#mal_cs_otherlinks a[href*="/history/"]:after
+{ content: "Recent activity"; }
+#mal_cs_otherlinks a[href="/forum/"]:after
+{ content: "Forum MyAnimeList.net"; }
+#mal_cs_otherlinks a[href="/panel.php?go=export"]:after
+{ content: "Export my list to XML"; }
+#mal_cs_otherlinks a[href*="/sharedanime.php?"]:after
+{ content: "Shared Anime"; }
+#mal_cs_otherlinks a[href*="/sharedmanga.php?"]:after
+{ content: "Shared Manga"; }
+#mal_cs_otherlinks a[href*="/mangalist/"]:after
+{ content: "Manga List"; }
+#mal_cs_otherlinks a[href*="/animelist/"]:after
+{ content: "Anime List"; }
+#mal_cs_otherlinks a[href="/login.php"]:after
+{ content: "Login to my account"; }
+#mal_cs_otherlinks a[href="/register.php"]:after
+{ content: "Register a new account"; }
+#mal_cs_otherlinks a[href="/modules.php?go=faq"]:after
+{ content: "Any question ?"; }
+
+
+
+
+
+

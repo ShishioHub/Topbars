@@ -1,0 +1,446 @@
+
+@import url(http://fonts.googleapis.com/css?family=Orbitron:500);
+
+
+
+#mal_cs_otherlinks div:first-of-type, #mal_cs_otherlinks > div:nth-child(1) > strong > a{
+     font-family: "xol", orbitron;
+     font-size: 11px !Important;
+}
+
+
+.status_selected, .status_not_selected, .table_headerLink {
+     font-family: "xol", orbitron;
+     font-size: 13px !important;
+}
+
+
+a {
+	text-decoration: none;
+}
+
+.status_selected a:hover, .status_not_selected a:hover, .table_headerLink:hover {
+	color: rgb(255, 255, 255) !important;
+}
+
+/* XXXXXXXXXX IMAGE UNDER TOP BAR XXXXXXXXXX */
+
+#inlineContent {
+display: block !important;
+}
+
+#inlineContent:before {
+     content: "";
+     background: url("http://i.imgur.com/sjKRI43.png") no-repeat scroll center 0px transparent;
+     display: block ! important;
+     height: 150px;
+     left: 0px;
+     position: fixed;
+     top: 0px;
+     width: 100%;
+     z-index: 1;
+pointer-events: none;
+}
+
+/* XXXXXXXXXX TOP BAR BODY XXXXXXXXXX */
+
+#mal_control_strip {
+	position: fixed !important;
+	top: 0px;
+	left: 50% !important;
+	margin-left: -537px !important;
+	width: 1075px !important;
+	background: rgba(255, 255, 255, 0.1) !important;
+	border: 4px solid black;
+	border-top: none !important;
+	border-radius: 0 0 12px 12px;
+	height: 50px;
+	z-index: 2;
+}
+
+#mal_control_strip div, #mal_cs_listinfo, #mal_cs_links, #mal_cs_otherlinks {
+	border-right: none !important;
+	font-size: 0px !important;
+	line-height: 0px;
+}
+
+/* XXXXXXXXXX MAL LOGO (WHEN LOGGED OUT) XXXXXXXXXX */
+
+#mal_cs_pic {
+	position: absolute;
+	top: 5px;
+	left: 12px;
+	height: 40px !important;
+	width: 140px !important;
+	border-right: none !important;
+}
+
+/* XXXXXXXXXX "YOU ARE VIEWING YOUR/LINK ANIME LIST" XXXXXXXXXX */
+
+#mal_cs_otherlinks div:first-of-type {
+	position: fixed;
+	display: block;
+	width: 120px;
+	height:  40px;
+	font-size: 10px !important;
+	line-height: 10px;
+	font-family: myAnimeFont;
+	top: 8px;
+	left:50%;
+	margin-left: -123px !important;
+}
+
+#mal_cs_otherlinks > div:nth-child(1) > strong > a {
+	text-decoration: none;
+	font-family: myAnimeFont;
+	font-size: 10px;
+	color: rgb(0, 102, 255);
+	background: transparent;
+}
+
+#mal_cs_otherlinks > div:nth-child(1) > strong > a:hover {
+	color: white;
+}
+
+/* XXXXXXXXXX TOP BAR ICONS XXXXXXXXXX */
+
+#mal_cs_listinfo div a, #mal_cs_links div a, #mal_cs_otherlinks div:not(:first-of-type) a {
+	display: block;
+	position: absolute;
+	top: 6px;
+	width: 30px;
+	height: 30px;
+	line-height: 30px;
+	font-size: 0px;
+	border: 2px solid black;
+	border-radius: 6px;
+	z-index: 2;
+	background-image: url(http://i.imgur.com/XQvMGpe.png); 
+}
+
+#mal_cs_listinfo div a:hover, #mal_cs_links div a:hover, #mal_cs_otherlinks div a:hover {
+	color: rgb(255, 255, 255);
+}
+
+#mal_cs_listinfo div a:hover, #mal_cs_links div a:hover, #mal_cs_otherlinks div:not(:first-of-type) a:hover {
+	box-shadow: 0px 0px 15px 5px rgba(255, 255, 255, 0.8);
+}	
+
+#mal_cs_listinfo a[href*="/profile/"] {
+	left: 6px;
+	background-position: 0px 0px;
+}
+
+#mal_cs_listinfo a[href="/panel.php?go=logout"] {
+	left: 46px;
+	background-position: -30px 0px;
+}
+
+#mal_cs_links a[href="/addtolist.php?hidenav=1"] {
+	left: 86px;
+	background-position: -60px 0px;
+}
+
+#mal_cs_links a[href="/"] {
+	left: 126px;
+	background-position: -90px 0px;
+}
+
+#mal_cs_links a[href*="/animelist/"] {
+	left: 166px;
+	background-position: -120px 0px;	
+}
+
+#mal_cs_links a[href*="/mangalist/"] {
+	left: 206px;
+	background-position: -150px 0px;
+}
+
+#mal_cs_otherlinks a[href*="/forum/"]{
+	left: 286px;
+	background-position: -180px 0px;
+}
+
+#mal_cs_otherlinks a[href*="/history/"] {
+	left: 246px;
+	background-position: -210px 0px;
+}
+
+#mal_cs_otherlinks a[href="/panel.php?go=export"] {
+	left: 326px;
+	background-position: -240px 0px;
+}
+
+#mal_cs_otherlinks a[href*="/sharedanime.php?"] {
+	left: 286px;
+	background-position: -270px 0px;
+}
+
+#mal_cs_otherlinks a[href*="/mangalist/"] {
+	left: 326px;
+	background-position: -150px 0px;
+}
+
+#mal_cs_otherlinks a[href="/login.php"] {
+	left: 246px;
+	background-position: 0px 0px;
+}
+
+#mal_cs_otherlinks a[href="/register.php"] {
+	left: 286px;
+	background-position: -60px 0px;
+}
+
+#mal_cs_otherlinks a[href="/modules.php?go=faq"] {
+	left: 326px;
+	background-position: -180px 0px;
+}
+
+#mal_cs_listinfo a[href*="/profile/"]:hover { background-position: 0px -31px; }
+#mal_cs_listinfo a[href="/panel.php?go=logout"]:hover { background-position: -30px -31px; }
+#mal_cs_links a[href="/addtolist.php?hidenav=1"]:hover { background-position: -60px -31px; }
+#mal_cs_links a[href="/"]:hover { background-position: -90px -31px; }
+#mal_cs_links a[href*="/animelist/"]:hover { background-position: -120px -30px; }
+#mal_cs_links a[href*="/mangalist/"]:hover { background-position: -150px -30px; }
+#mal_cs_otherlinks a[href*="/forum/"]:hover{ background-position: -180px -31px; }
+#mal_cs_otherlinks a[href*="/history/"]:hover { background-position: -210px -31px; }
+#mal_cs_otherlinks a[href="/panel.php?go=export"]:hover { background-position: -240px -32px; }
+#mal_cs_otherlinks a[href*="/sharedanime.php?"]:hover { background-position: -270px -31px; }
+#mal_cs_otherlinks a[href*="/mangalist/"]:hover { background-position: -150px -30px; }
+#mal_cs_otherlinks a[href="/login.php"]:hover { background-position: 0px -31px; }
+#mal_cs_otherlinks a[href="/register.php"]:hover { background-position: -60px -31px; }
+#mal_cs_otherlinks a[href="/modules.php?go=faq"]:hover { background-position: -180px -31px; }
+
+/* XXXXXXXXXX SEARCH XXXXXXXXXX */
+
+#mal_cs_powered img {
+	display: none;
+}
+
+#mal_cs_powered {
+	display: block;
+	position: absolute;
+	border: 2px solid black;
+	border-radius: 5px;
+	top: 6px !important;
+	left: 366px !important;
+	height: 30px !important;
+	width: 0px;
+	padding-left: 34px;
+	overflow: hidden;
+	background: url(http://i.imgur.com/oSMWT73.png) no-repeat;
+	background-position: 0px 0px;
+}
+
+#mal_cs_powered:hover {
+	background-position: 0px -46px;
+	width: 116px;	
+}
+
+#mal_cs_powered  #search {padding-top: 0px !important;}
+
+#mal_cs_powered  #search #searchBox {
+	margin-top: -3px;
+	height: 30px;
+	width: 116px !important;
+	background-color: black;
+	border: none;
+	border-radius: 3px;
+	text-align: center;
+	font-size: 13px !important;
+	line-height: 20px;
+	padding: 0px !important;
+}
+
+#searchBox:focus {
+	outline: 0;
+	color: white;
+}
+
+
+/* XXXXXXXXXX SORT ANIME XXXXXXXXXX */
+
+#list_surround > table:nth-of-type(n+4) ~ .header_cw + table,
+#list_surround > table:nth-of-type(n+4) ~ .header_completed + table,
+#list_surround > table:nth-of-type(n+4) ~ .header_onhold + table,
+#list_surround > table:nth-of-type(n+4) ~ .header_dropped + table,
+#list_surround > table:nth-of-type(n+4) ~ .header_ptw + table {
+	display: none;
+}
+
+#list_surround > table:nth-child(6) {
+	display: block;
+	position: fixed;
+	padding-right: 40px;
+	z-index: 3;
+	overflow: hidden;
+	top: 0px;
+	height: 40px;
+	width: 0px;
+	left: 50%;
+	margin-left: 493px;
+	line-height: 0px;
+	background: url(http://i.imgur.com/vqpfKwu.png) no-repeat;
+	background-position: 0px 6px;
+}	
+
+#list_surround > table:nth-child(6):hover {
+	height: 170px;
+	width: 160px;
+	background-position: 0px -34px;
+}
+
+.table_header {
+	display: block;
+	width: 96px;
+}
+
+.table_header:first-of-type, .table_header:nth-of-type(n+6) {
+	display: none;
+}
+
+.table_headerLink {
+	display: block;
+	height: 30px;
+	text-align: center;
+	width: 96px;
+	border: 2px solid black;
+	border-radius: 5px;
+	font-size: 13px;
+	line-height: 30px;
+	margin: 6px;
+	margin-left: 52px;
+	margin-bottom: 0px;
+	z-index: 3;
+	text-shadow:
+     -1px -1px 0 #000,  
+      1px -1px 0 #000,
+     -1px 1px 0 #000,
+      1px 1px 0 #000;	
+	background: rgba(255, 255, 255, 0.1);
+}
+
+.table_headerLink:hover {
+	box-shadow: 0px 0px 15px 5px rgba(255, 255, 255, 0.8);
+}	
+
+#list_surround > table:nth-child(6) > tbody > tr > td:nth-child(5) > strong > a {
+	margin-right: 0px !important;
+}
+
+/* XXXXXXXXXX CATEGORIES XXXXXXXXXX */
+
+#list_surround > table:first-of-type {
+	position: fixed;
+	top: 0px;
+	left: 50%;
+	margin-left: -8px;
+	width: auto;
+	height: 46px;
+	font-size: 13px;
+	font-weight: bold;
+	z-index: 3;
+}
+
+.status_selected:nth-child(3), .status_not_selected:nth-child(3) {
+	display: none;
+}
+
+.status_selected, .status_not_selected {
+	width: 70px;
+	white-space: nowrap;
+}
+
+.status_selected a, .status_not_selected a {
+	display: block;
+	padding: 0px;
+	height: 30px;
+	line-height: 30px;
+	width: 90px;
+	border: 2px solid black;
+	border-radius: 5px;
+	margin-right: 3px;
+	margin-left: 3px;
+	overflow: hidden;
+	text-shadow:
+     -1px -1px 0 #000,  
+      1px -1px 0 #000,
+     -1px 1px 0 #000,
+      1px 1px 0 #000;
+}
+
+.status_selected:nth-child(1) a:before, .status_not_selected:nth-child(1) a:before {
+	content: '\00a0\00a0Watching\00a0\00a0';
+}
+
+.status_selected:nth-child(5) a:before, .status_not_selected:nth-child(5) a:before {
+	content: '\00a0To Watch\00a0\00a0';
+}
+
+.status_selected a:hover, .status_not_selected a:hover {
+	box-shadow: 0px 0px 15px 5px rgba(255, 255, 255, 0.8);
+}	
+
+.status_selected a {
+	color: white !important;
+}	
+
+ .status_not_selected a {
+color: rgb(0, 102, 255) !important;
+}
+
+
+/* XXXXXXXXXX "GO" BUTTON (JUST PRESS ENTER) XXXXXXXXXX */
+
+input[value=Go] {
+	display: none;
+}
+
+
+.logout {
+	left: 45px;
+	background-position: -30px 0px !important;;
+  background-image: url(http://i.imgur.com/XQvMGpe.png) !important;; 
+}
+
+.logout:hover {
+	left: 45px;
+	background-position: -30px -31px !important;;
+  background-image: url(http://i.imgur.com/XQvMGpe.png) !important;; 
+}
+
+
+#mal_cs_otherlinks > div:nth-child(2) > a:nth-child(4),
+#mal_cs_links > div:nth-child(1) > a:nth-child(2){
+display: none !important;
+}
+
+
+.status_selected, .status_not_selected, .table_headerLink {
+font-family: "myAnimeFont", orbitron;
+font-size: 15px !important;
+}
+
+#mal_cs_otherlinks div:first-of-type {
+font-size: 11px !important;}
+
+
+#mal_cs_listinfo div a, #mal_cs_links div a, #mal_cs_otherlinks div:not(:first-of-type) a {
+background-image: url(https://image.myanimelist.net/ui/NMhxKjGdQ21NnPG4rzwny5ki7pcNHV2xqAMl5_rnoGstyrrZkL981kcB-z3ObRqS) !important; }
+
+#mal_cs_powered {
+background-image: url(https://image.myanimelist.net/ui/NMhxKjGdQ21NnPG4rzwny9BqXp7buUqmouLJKzaF748bacuNovhxljgnhVNqKGas) !important;
+}
+
+#list_surround > table:nth-child(6) {
+background-image: url(https://image.myanimelist.net/ui/NMhxKjGdQ21NnPG4rzwny7rH3-FhFqWyw1wCzIzk_vmMjXLixNqEXQGBKwLk-ycx) !important;
+}
+
+.logout {
+  background-image: url(https://image.myanimelist.net/ui/NMhxKjGdQ21NnPG4rzwny5ki7pcNHV2xqAMl5_rnoGstyrrZkL981kcB-z3ObRqS) !important;; 
+}
+
+.logout:hover {
+  background-image: url(https://image.myanimelist.net/ui/NMhxKjGdQ21NnPG4rzwny5ki7pcNHV2xqAMl5_rnoGstyrrZkL981kcB-z3ObRqS) !important;; 
+}
+
