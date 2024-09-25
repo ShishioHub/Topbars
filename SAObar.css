@@ -15,7 +15,7 @@
     z-index: 10;
 }
 #mal_cs_listinfo:hover, #mal_cs_links:hover, #mal_cs_otherlinks:hover, #mal_cs_powered:hover {
-    height: 200px !important;
+    height: 220px !important;
     padding-right: 42px !important;
     top: 20px !important;
     width: 202px !important;
@@ -87,7 +87,7 @@
     opacity: 1;
 }
 #mal_cs_powered a img {
-    background: url("http://i.imgur.com/fGTjBC3.png") no-repeat scroll 50% 6px #f1a804;
+    background: url() no-repeat scroll 50% 6px #f1a804;
     border-radius: 3px 3px 3px 3px;
     display: block;
     height: 0;
@@ -125,23 +125,23 @@
     box-shadow: 0 1px 2px rgba(0, 0, 0, 0.1) inset;
 }
 #searchListButton {
-    background: url("http://i.imgur.com/fGTjBC3.png") no-repeat scroll 0 0 transparent !important;
+    background: url(https://i.ibb.co/54ZNXyY/fGTjBC3.png) no-repeat scroll 0 0 transparent !important;
     border-radius: 3px 3px 3px 3px;
     height: 0;
     margin: 0;
     padding: 16px 0 0 19px !important;
     position: absolute;
-    right: 12px;
-    top: 14px !important;
-    width: 0;
+    right: 0px;
+    top: -23px !important;
+    width: 100px;
 }
 #mal_cs_listinfo {
-    background-image: url("https://i.imgur.com/03C6cf2.png");
+    background-image: url(https://i.ibb.co/7z0M9fJ/03C6cf2.png);
     right: 178px;
 background-color: transparent;
 }
 #mal_cs_listinfo:hover {
-    background-image: url("https://i.imgur.com/hcvERvF.png");
+    background-image: url(https://i.ibb.co/FhLc8C8/hcvERvF.png);
 background-color: transparent;
 }
 #mal_cs_listinfo:before {
@@ -166,12 +166,12 @@ z-index: -10 !important;
 }
  
 #mal_cs_links {
-    background-image: url("https://i.imgur.com/M3GjfgE.png");
+    background-image: url(https://i.ibb.co/kH9PFdk/M3GjfgE.png);
     right: 122px !important;
     z-index: 9;
 }
 #mal_cs_links:hover {
-    background-image: url("https://i.imgur.com/nOJvcx9.png");
+    background-image: url(https://i.ibb.co/FqsqDLP/nOJvcx9.png);
 }
  
 #mal_cs_links:before {
@@ -186,12 +186,12 @@ z-index: -10 !important;
 }
  
 #mal_cs_otherlinks {
-    background-image: url("https://i.imgur.com/NYT1CRI.png");
+    background-image: url(https://i.ibb.co/pJSJBSk/NYT1CRI.png);
     right: 66px !important;
     z-index: 8;
 }
 #mal_cs_otherlinks:hover {
-    background-image: url("https://i.imgur.com/5knPHH5.png");
+    background-image: url(https://i.ibb.co/QdsZxsW/5knPHH5.png);
 }
  
 #mal_cs_otherlinks:before {
@@ -206,13 +206,13 @@ z-index: -10 !important;
 }
  
 #mal_cs_powered {
-    background-image: url("https://i.imgur.com/GfwXZ7O.png");
+    background-image: url(https://i.ibb.co/wCnJ326/GfwXZ7O.png);
     position: fixed !important;
     right: 10px !important;
     z-index: 7;
 }
 #mal_cs_powered:hover {
-    background-image: url("https://i.imgur.com/SH8hLIA.png");
+    background-image: url(https://i.ibb.co/jbd5QT1/SH8hLIA.png);
 }
 #mal_cs_powered:before {
 content: "";
@@ -227,7 +227,7 @@ z-index: -10 !important;
  
  
 #mal_control_strip {
-    background: url("https://i.imgur.com/8Ge8Cae.png") repeat scroll 0 0 transparent !important;
+    background: url(https://i.ibb.co/YtGqqxL/8Ge8Cae.png) repeat scroll 0 0 transparent !important;
     position: fixed;
 }
 #mal_cs_pic img {
